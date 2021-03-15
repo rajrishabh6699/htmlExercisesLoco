@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: hsl(0deg 0% 53%);
+}
+
+h1 {
+  font-weight: 600;
+  padding-top: 40px;
+  margin-left: 125px;
+  color: hsl(0deg 0% 20%);
+}
+
+h2 {
+  color: hsl(0deg 0% 20%);
+}
+
+h3 {
+  font-weight: 700;
+  color: hsl(0deg 0% 20%);
+}
+
+.bigBox {
+  display: flex;
+}
+
+.first {
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  width: 70%;
+  margin-left: 120px;
+  margin-top: -20px;
+}
+
+.links {
+  text-decoration: none;
+  color: hsl(208deg 48% 59%);
+}
+.customDiv {
+  /* border: 1px solid black; */
+  height: 300px;
+  width: 300px;
+  padding-top: 15px;
+  margin-bottom: -50px;
+}
+.custom2 {
+  margin-left: 20px;
+}
+.pics {
+  height: 50px;
+  width: 50px;
+}
+
+.second {
+  padding: 5px;
+  width: 30%;
+  margin-right: 120px;
+  margin-top: -50px;
+}
+
+.pick {
+  padding-left: 70px;
+  text-align: left;
+  color: hsl(0deg 0% 20%);
+  font-weight: 400;
+}
+
+.options button {
+  background-color: white;
+  border: 1px solid rgba(34, 31, 31, 0.123);
+  color: rgba(34, 31, 31, 0.445);
+  padding: 10px;
+  width: 100px;
+}
+
+.userDetails {
+  /* border: 1px solid black; */
+  box-shadow: -3px -3px 50px 0 rgb(154 150 150);
+  padding: 30px 1px;
+  text-align: center;
+  width: 450px;
+}
+
+.userInput {
+  border: 1px solid rgba(34, 31, 31, 0.123);
+  margin: 10px 0px;
+  padding: 20px;
+  width: 60%;
+}
+
+.submitButton {
+  background-color: hsl(183deg 42% 49%);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.contact {
+  font-family: sans-serif;
+  color: rgba(34, 31, 31, 0.445);
+}
